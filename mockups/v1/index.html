@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Swain — Boudh, Odisha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav__logo">THE SWAIN</div>
+    <ul class="nav__links">
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#amenities">Amenities</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#book" class="btn btn--outline">Book a Stay</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__tagline">Boudh, Odisha</p>
+      <h1 class="hero__title">A Place of<br /><em>Quiet Distinction</em></h1>
+      <p class="hero__sub">Unhurried. Refined. Genuinely welcoming.</p>
+      <a href="#book" class="btn btn--primary">Reserve Your Room</a>
+    </div>
+  </section>
+
+  <!-- INTRO STRIP -->
+  <section class="intro">
+    <div class="container intro__grid">
+      <div class="intro__stat"><span>12</span><p>Curated Rooms</p></div>
+      <div class="intro__divider"></div>
+      <div class="intro__stat"><span>4.9</span><p>Guest Rating</p></div>
+      <div class="intro__divider"></div>
+      <div class="intro__stat"><span>24/7</span><p>Personal Service</p></div>
+    </div>
+  </section>
+
+  <!-- ROOMS -->
+  <section class="rooms" id="rooms">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-header__eyebrow">Accommodations</p>
+        <h2 class="section-header__title">Our Rooms</h2>
+      </div>
+      <div class="rooms__grid">
+
+        <div class="room-card">
+          <div class="room-card__img room-card__img--deluxe"></div>
+          <div class="room-card__body">
+            <h3>Deluxe Room</h3>
+            <p>King bed · Garden view · 320 sq ft</p>
+            <span class="room-card__price">From ₹3,500 / night</span>
+            <a href="#book" class="btn btn--outline btn--sm">Book</a>
+          </div>
+        </div>
+
+        <div class="room-card">
+          <div class="room-card__img room-card__img--premier"></div>
+          <div class="room-card__body">
+            <h3>Premier Room</h3>
+            <p>King bed · Pool-facing · 420 sq ft</p>
+            <span class="room-card__price">From ₹5,000 / night</span>
+            <a href="#book" class="btn btn--outline btn--sm">Book</a>
+          </div>
+        </div>
+
+        <div class="room-card">
+          <div class="room-card__img room-card__img--suite"></div>
+          <div class="room-card__body">
+            <h3>Family Suite</h3>
+            <p>2 bedrooms · Living area · 680 sq ft</p>
+            <span class="room-card__price">From ₹8,500 / night</span>
+            <a href="#book" class="btn btn--outline btn--sm">Book</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- AMENITIES -->
+  <section class="amenities" id="amenities">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-header__eyebrow">What We Offer</p>
+        <h2 class="section-header__title">Amenities</h2>
+      </div>
+      <div class="amenities__grid">
+        <div class="amenity">
+          <div class="amenity__icon">&#9675;</div>
+          <h4>Rooftop Dining</h4>
+          <p>Curated Odia &amp; Continental menu with evening views</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">&#9675;</div>
+          <h4>Outdoor Pool</h4>
+          <p>Heated pool open year-round for guests</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">&#9675;</div>
+          <h4>Wellness Room</h4>
+          <p>Massage &amp; relaxation therapies on request</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">&#9675;</div>
+          <h4>Banquet Hall</h4>
+          <p>Private events, family gatherings up to 80 guests</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">&#9675;</div>
+          <h4>Free Parking</h4>
+          <p>Secured, covered parking for all guests</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">&#9675;</div>
+          <h4>Airport Transfer</h4>
+          <p>Arranged pick-up from Bhubaneswar airport</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about__grid">
+      <div class="about__img-wrap">
+        <div class="about__img"></div>
+      </div>
+      <div class="about__text">
+        <p class="section-header__eyebrow">Our Story</p>
+        <h2>Built for Families.<br />Designed with Care.</h2>
+        <p>The Swain was born from a simple belief — that a stay away from home should feel better, not just different. Set in the calm of Boudh, we offer families and travellers a place that is warm, tasteful, and genuinely attentive.</p>
+        <p>Not flashy. Just right.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING CTA -->
+  <section class="book" id="book">
+    <div class="container book__inner">
+      <h2>Plan Your Stay</h2>
+      <p>Reach us to check availability and get a personalised quote.</p>
+      <div class="book__form">
+        <input type="date" placeholder="Check-in" />
+        <input type="date" placeholder="Check-out" />
+        <select>
+          <option>1 Guest</option>
+          <option>2 Guests</option>
+          <option>3 Guests</option>
+          <option>4+ Guests</option>
+        </select>
+        <button class="btn btn--primary">Check Availability</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact__grid">
+      <div>
+        <h3>The Swain</h3>
+        <p>Boudh, Odisha — 762014</p>
+        <p>+91 XXXXX XXXXX</p>
+        <p>hello@theswain.in</p>
+      </div>
+      <div>
+        <h4>Getting Here</h4>
+        <p>180 km from Bhubaneswar · Nearest railway: Boudh Road Station</p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <p>Instagram &nbsp;·&nbsp; Facebook</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2026 The Swain. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
