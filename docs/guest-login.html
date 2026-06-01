@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guest Login — The Swain</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="admin.css" />
+  <style>
+    body { background: var(--cream); display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; gap: 16px; }
+    .login-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 44px 38px;
+      width: 100%;
+      max-width: 360px;
+    }
+    .login-card__logo { font-family: var(--font-serif); font-size: 20px; letter-spacing: 0.2em; color: var(--charcoal); text-align: center; margin-bottom: 4px; }
+    .login-card__sub { text-align: center; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone); margin-bottom: 32px; }
+    .form-group { margin-bottom: 16px; }
+    .form-group label { display: block; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone); margin-bottom: 6px; }
+    .form-group input {
+      width: 100%; padding: 10px 13px;
+      border: 1px solid var(--border);
+      font-family: var(--font-sans); font-size: 14px; color: var(--charcoal);
+      outline: none; background: var(--warm-white); transition: border-color 0.2s;
+    }
+    .form-group input:focus { border-color: var(--terracotta); }
+    .form-hint { font-size: 12px; color: var(--stone); margin-bottom: 20px; line-height: 1.5; }
+    .login-btn {
+      width: 100%; padding: 11px;
+      background: var(--terracotta); color: #fff;
+      font-family: var(--font-sans); font-size: 12px; font-weight: 500;
+      letter-spacing: 0.1em; text-transform: uppercase; border: none; cursor: pointer;
+    }
+    .login-btn:hover { background: var(--terracotta-light); }
+    .links { text-align: center; margin-top: 18px; font-size: 12px; color: var(--stone); display: flex; flex-direction: column; gap: 8px; }
+    .links a { color: var(--stone); }
+    .links a:hover { color: var(--terracotta); }
+  </style>
+</head>
+<body>
+  <div class="login-card">
+    <div class="login-card__logo">THE SWAIN</div>
+    <div class="login-card__sub">My Reservations</div>
+
+    <p class="form-hint">Enter the email and phone number you used when booking. We'll show your reservations.</p>
+
+    <form action="guest-reservations.html">
+      <div class="form-group">
+        <label>Email address</label>
+        <input type="email" placeholder="yourname@email.com" />
+      </div>
+      <div class="form-group">
+        <label>Phone number</label>
+        <input type="tel" placeholder="+91 XXXXX XXXXX" />
+      </div>
+      <button class="login-btn" type="submit">View My Bookings</button>
+    </form>
+
+    <div class="links">
+      <a href="index.html">← Back to website</a>
+      <a href="#" style="color:#bbb">Need help? Call +91 XXXXX XXXXX</a>
+    </div>
+  </div>
+</body>
+</html>

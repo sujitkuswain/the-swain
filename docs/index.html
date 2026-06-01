@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Swain — Boudh, Odisha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav__logo">THE SWAIN</div>
+    <ul class="nav__links">
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#amenities">Amenities</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div style="display:flex;gap:12px;align-items:center">
+      <a href="guest-login.html" style="font-size:12px;color:#bbb;letter-spacing:0.07em;text-transform:uppercase">My Bookings</a>
+      <a href="#book" class="btn btn--outline">Book a Stay</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__tagline">Boudh, Odisha</p>
+      <h1 class="hero__title">A Comfortable<br /><em>Home Away</em></h1>
+      <p class="hero__sub">Clean rooms. Good food. People who care.</p>
+      <a href="#book" class="btn btn--primary">Reserve Your Room</a>
+    </div>
+  </section>
+
+  <!-- INTRO STRIP -->
+  <section class="intro">
+    <div class="container intro__grid">
+      <div class="intro__stat"><span>18</span><p>Well-kept Rooms</p></div>
+      <div class="intro__divider"></div>
+      <div class="intro__stat"><span>3</span><p>Floors</p></div>
+      <div class="intro__divider"></div>
+      <div class="intro__stat"><span>100%</span><p>Family-run</p></div>
+    </div>
+  </section>
+
+  <!-- ROOMS -->
+  <section class="rooms" id="rooms">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-header__eyebrow">Accommodations</p>
+        <h2 class="section-header__title">Our Rooms</h2>
+        <p class="section-header__sub">Every room is kept to a high standard — clean, quiet, and comfortable.</p>
+      </div>
+      <div class="rooms__grid">
+
+        <div class="room-card">
+          <div class="room-card__img room-card__img--standard"></div>
+          <div class="room-card__badge">Most Booked</div>
+          <div class="room-card__body">
+            <h3>Standard Room</h3>
+            <p>Queen bed · AC · Private bath · Street view</p>
+            <span class="room-card__price">From ₹1,800 / night</span>
+            <a href="#book" class="btn btn--outline btn--sm">Book</a>
+          </div>
+        </div>
+
+        <div class="room-card">
+          <div class="room-card__img room-card__img--deluxe"></div>
+          <div class="room-card__body">
+            <h3>Deluxe Room</h3>
+            <p>King bed · AC · Work desk · Courtyard view</p>
+            <span class="room-card__price">From ₹2,800 / night</span>
+            <a href="#book" class="btn btn--outline btn--sm">Book</a>
+          </div>
+        </div>
+
+        <div class="room-card">
+          <div class="room-card__img room-card__img--family"></div>
+          <div class="room-card__body">
+            <h3>Family Room</h3>
+            <p>2 beds · Sofa · AC · Fits 2 adults + 2 children</p>
+            <span class="room-card__price">From ₹3,800 / night</span>
+            <a href="#book" class="btn btn--outline btn--sm">Book</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- AMENITIES -->
+  <section class="amenities" id="amenities">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-header__eyebrow">What We Offer</p>
+        <h2 class="section-header__title">Simple. Solid.</h2>
+        <p class="section-header__sub">No unnecessary frills — just things that make your stay easy.</p>
+      </div>
+      <div class="amenities__grid">
+        <div class="amenity">
+          <div class="amenity__icon">&#9632;</div>
+          <h4>In-house Restaurant</h4>
+          <p>Home-style Odia meals, breakfast &amp; dinner daily</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">&#9632;</div>
+          <h4>Free Wi-Fi</h4>
+          <p>Reliable connection across all floors</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">&#9632;</div>
+          <h4>24-hr Front Desk</h4>
+          <p>Someone always there when you need help</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">&#9632;</div>
+          <h4>Free Parking</h4>
+          <p>Ground-floor covered parking for guests</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">&#9632;</div>
+          <h4>Room Service</h4>
+          <p>Food &amp; tea delivered to your room on request</p>
+        </div>
+        <div class="amenity">
+          <div class="amenity__icon">&#9632;</div>
+          <h4>Local Guidance</h4>
+          <p>Staff happy to help with local travel, temples &amp; sightseeing</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about__grid">
+      <div class="about__img-wrap">
+        <div class="about__img"></div>
+      </div>
+      <div class="about__text">
+        <p class="section-header__eyebrow">Our Story</p>
+        <h2>A Small Hotel.<br />A Genuine Welcome.</h2>
+        <p>The Swain is a family-run hotel in the heart of Boudh. We built this place for families visiting for work, pilgrimage, or leisure — people who want a room that's clean, a meal that's proper, and staff who treat them like guests, not just bookings.</p>
+        <p>We are not a resort. We are a well-run hotel — and we take that seriously.</p>
+        <div class="about__highlights">
+          <div class="about__highlight">
+            <strong>Location</strong>
+            <span>Town centre, Boudh — walkable to market &amp; bus stand</span>
+          </div>
+          <div class="about__highlight">
+            <strong>Best for</strong>
+            <span>Families, corporate travellers, temple visitors</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEARBY -->
+  <section class="nearby">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-header__eyebrow">Around Boudh</p>
+        <h2 class="section-header__title">Worth Visiting</h2>
+      </div>
+      <div class="nearby__grid">
+        <div class="nearby__item">
+          <h4>Boudh Palace</h4>
+          <p>Historic royal palace — 5 min from hotel</p>
+        </div>
+        <div class="nearby__item">
+          <h4>Mahanadi River</h4>
+          <p>Scenic river ghats for morning walks</p>
+        </div>
+        <div class="nearby__item">
+          <h4>Local Market</h4>
+          <p>Daily bazaar, local handicrafts &amp; fresh produce</p>
+        </div>
+        <div class="nearby__item">
+          <h4>Boudh Bus Stand</h4>
+          <p>Connections to Bhubaneswar, Phulbani &amp; beyond — 3 min walk</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING CTA -->
+  <section class="book" id="book">
+    <div class="container book__inner">
+      <h2>Plan Your Stay</h2>
+      <p>Call or WhatsApp us — we'll confirm availability within the hour.</p>
+      <div class="book__form">
+        <input type="date" />
+        <input type="date" />
+        <select>
+          <option>1 Guest</option>
+          <option>2 Guests</option>
+          <option>3 Guests</option>
+          <option>4+ Guests</option>
+        </select>
+        <button class="btn btn--primary">Check Availability</button>
+      </div>
+      <p class="book__or">or call us directly &nbsp;·&nbsp; <strong>+91 XXXXX XXXXX</strong></p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact__grid">
+      <div>
+        <h3>The Swain</h3>
+        <p>Near Bus Stand, Boudh</p>
+        <p>Odisha — 762014</p>
+        <p style="margin-top:12px">+91 XXXXX XXXXX</p>
+        <p>hello@theswain.in</p>
+      </div>
+      <div>
+        <h4>Getting Here</h4>
+        <p>180 km from Bhubaneswar (NH-57)</p>
+        <p>Nearest railway: Boudh Road Station</p>
+        <p>Bus: Direct from Bhubaneswar &amp; Phulbani</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Check-in: 12:00 noon</p>
+        <p>Check-out: 11:00 am</p>
+        <p style="margin-top:12px">Front desk: 24 hours</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2026 The Swain, Boudh. All rights reserved. &nbsp;·&nbsp; <a href="guest-login.html" style="color:#555;text-decoration:underline">My Bookings</a> &nbsp;·&nbsp; <a href="admin-login.html" style="color:#555;text-decoration:underline">Owner Login</a></p>
+  </footer>
+
+</body>
+</html>
